@@ -8,7 +8,7 @@ import logging
 import toolz
 from tqdm import tqdm
 import os
-from evaluators import EvaluatorFactory
+from deezer_mf.evaluators import EvaluatorFactory
 import math
 
 logger = logging.getLogger(__name__)

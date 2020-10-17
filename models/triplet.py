@@ -6,7 +6,7 @@ import logging
 import numpy as np
 import tensorflow as tf
 from sklearn.preprocessing import normalize
-from models.model import Model
+from deezer_mf.models.model import Model
 
 logger = logging.getLogger(__name__)
 

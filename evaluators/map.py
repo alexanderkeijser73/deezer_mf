@@ -3,7 +3,7 @@ from __future__ import division
 from __future__ import absolute_import
 
 import numpy as np
-from evaluators.evaluator import Evaluator
+from deezer_mf.evaluators import Evaluator
 
 
 class MAPEvaluator(Evaluator):

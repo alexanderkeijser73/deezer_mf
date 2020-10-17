@@ -1,6 +1,6 @@
-from evaluators.evaluator import Evaluator
-from evaluators.ndcg import NDCGEvaluator
-from evaluators.map import MAPEvaluator
+from deezer_mf.evaluators.evaluator import Evaluator
+from deezer_mf.evaluators.ndcg import NDCGEvaluator
+from deezer_mf.evaluators.map import MAPEvaluator
 
 
 class EvaluatorFactory(object):

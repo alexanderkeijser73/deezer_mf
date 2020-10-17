@@ -13,10 +13,10 @@ import scipy.sparse as sp
 import tensorflow as tf
 from tensorflow.contrib.training import HParams
 
-from datasets import split_data
-from datasets.echonest import fetch_echonest
-from models.triplet import Triplet
-from samplers import SamplerFactory
+from deezer_mf.datasets import split_data
+from deezer_mf.datasets.echonest import fetch_echonest
+from deezer_mf.models.triplet import Triplet
+from deezer_mf.samplers import SamplerFactory
 
 logger = logging.getLogger(__name__)
 

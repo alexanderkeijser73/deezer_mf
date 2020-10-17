@@ -2,7 +2,7 @@ from __future__ import print_function
 from __future__ import division
 from __future__ import absolute_import
 
-from evaluators.evaluator import Evaluator
+from deezer_mf.evaluators import Evaluator
 import numpy as np
 
 
